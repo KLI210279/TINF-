@@ -13,8 +13,19 @@ D- Flip flop
   # D sthet für delay und bedeutet verzögerung
   # dient dazu um informationen pro takt weiterzugeben
   # verwendungszweck : schieberegister
-  # serial laden = serial ausgeben
-  # serial laden = parralel ausgeben
+  # seriel laden = seriel ausgeben
+  # seriel laden = parralel ausgeben
   # parralel laden = parrralel ausgeben
   # parralel laden = seriel ausgeben
   
+JK-Master-Slave-Flip-Flop
+  # reagieren auf die positive, wie auch auf die negative Taktflanke.
+  # Bei der positiven Taktflanke werden die am Eingang anstehenden Daten eingelesen. 
+  # Bei der negativen Taktflanke werden die Daten verzögert ausgegeben.
+  # Vorteil:
+    + große störsicherheit
+    
+    
+T-Flip-Flop
+  # wechselt mit jedem Taktimpuls seinen Ausgangszustand
+  # 
