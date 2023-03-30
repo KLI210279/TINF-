@@ -1,2 +1,20 @@
 Taktzustandgesteuertes sr-Flip flop
+  # Statische Eingänge sprechen auf Eingangszustände an. -> taktzustandsgesteuert
+  # Bei steuernden Eingängen steht die Kennzahl nach dem Buchstaben.
+  # Bei gesteuerten Eingängen steht die Kennzahl vor dem Buchstaben.
 
+
+Taktflankengesteuertes sr- flip flop
+  # Dynamische Eingänge sprechen auf Eingangszustands-Änderungen an- -> taktflankengesteuert (ansteigende Flanke 0->1, abfallende Flanke 1->0)
+  # hat im schaltsybol einen pfeil
+  
+ 
+D- Flip flop
+  # D sthet für delay und bedeutet verzögerung
+  # dient dazu um informationen pro takt weiterzugeben
+  # verwendungszweck : schieberegister
+  # serial laden = serial ausgeben
+  # serial laden = parralel ausgeben
+  # parralel laden = parrralel ausgeben
+  # parralel laden = seriel ausgeben
+  
